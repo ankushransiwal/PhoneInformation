@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Information"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="76dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#142bdf"/>
+
+    <Button
+        android:id="@+id/btnBuild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:text="Build Information"
+        android:height="30dp"
+        android:background="#0d8ddd"
+        android:textColor="#ffffff"
+        android:width="160dp"/>
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:height="30dp"
+        android:width="110dp"
+        android:textColor="#ffffff"
+        android:background="#0dd0d0"
+        android:text="Phone Info" />
+
+
+</RelativeLayout>
